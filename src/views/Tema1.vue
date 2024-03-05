@@ -7,15 +7,12 @@
         span 1
       h1 Tiempos computacionales
       
-    .row.bg3.align-items-center.py-4
-      .col-lg-12.col-12.px-lg-5.px-4 
-        .row.justify-content-center.align-items-center           
-          .col-lg-12
-            .row.justify-content-center.align-items-center.bg4.pb-0 
-              .col-lg-3.my-3.p-0.ps-5
-                img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/4.png')     
-              .col-lg-9.my-3(data-aos="fade-down")
-                p(data-aos="fade-down").mb-0.ps-4 La complejidad informática estudia la clasificación de los problemas computacionales, teniendo en cuenta su dificultad, además mide el tiempo en que un algoritmo le da respuesta a una necesidad o a un problema, utilizando ciertas fórmulas matemáticas en las que no se profundizará, pero se explicarán algunos conceptos que se deben conocer para entender el ámbito de este tema, las ecuaciones matemáticas y todo su desarrollo se pueden investigar dirigiéndose a las referencias más adelante.   
+  
+    .d-flex.flex-wrap.flex-lg-nowrap.align-items-center.bg16.p-4
+      figure.mb-4.mb-lg-0.position-relative.up(data-aos="fade-right")
+        img.img-a.img-t(src="@/assets/curso/temas/4.png",)
+      .p-4.cardw(data-aos="fade-left")
+        p.mb-0 La complejidad informática estudia la clasificación de los problemas computacionales, teniendo en cuenta su dificultad, además mide el tiempo en que un algoritmo le da respuesta a una necesidad o a un problema, utilizando ciertas fórmulas matemáticas en las que no se profundizará, pero se explicarán algunos conceptos que se deben conocer para entender el ámbito de este tema, las ecuaciones matemáticas y todo su desarrollo se pueden investigar dirigiéndose a las referencias más adelante.                 
 
     Separador 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")

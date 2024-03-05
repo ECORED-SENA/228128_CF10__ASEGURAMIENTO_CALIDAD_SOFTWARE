@@ -340,3 +340,26 @@
 
 .bgs
   background-color: #F3F9FF     
+
+.cardw
+  position: relative
+  *
+    position: relative
+  &:before
+    border-radius: 8px
+    content: ""
+    position: absolute
+    top: 0
+    left: -10%
+    right: 0
+    bottom: 0
+    background-color: white
+    z-index: 0
+    @media screen and (max-width: 992px)
+      left: 0  
+
+.up
+  z-index: 1    
+
+.bg16  
+  background-color: #BAE9D9 !important    

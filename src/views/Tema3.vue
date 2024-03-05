@@ -155,32 +155,32 @@
     p(data-aos="fade-down").mb-4 A continuación, se mencionan algunas herramientas que podrían ayudar con el monitoreo del rendimiento de las bases de datos.
 
     .row.justify-content-center.align-items-center.px-3.bg15.brad(data-aos="flip-down")           
-      .col-lg-auto.my-3
+      .col-md-2.col-sm-12.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/47.png', alt='')       
-      .col
+      .col-10
         .bgw.brad.p-3.my-3
           .row.justify-content-center.align-items-top          
-            .col.my-1
+            .col-lg.my-1.col-md-12
               ul.lista-ul.fa-ul.mb-0
                 li.mb-0 
                   i.fas.fa-database.color1
                   | Germain APM.
-            .col.my-1                  
+            .col-lg.my-1.col-md-12                  
               ul.lista-ul.fa-ul.mb-0                   
                 li.mb-0 
                   i.fas.fa-database.color1
                   | Datadog.
-            .col.my-1                  
+            .col-lg.my-1.col-md-12                  
               ul.lista-ul.fa-ul.mb-0                  
                 li.mb-0 
                   i.fas.fa-database.color1
                   | Percona.
-            .col.my-1                  
+            .col-lg.my-1.col-md-12                  
               ul.lista-ul.fa-ul.mb-0                    
                 li.mb-0 
                   i.fas.fa-database.color1
                   | MariaDB.
-            .col.my-1                  
+            .col-lg.my-1.col-md-12                  
               ul.lista-ul.fa-ul.mb-0                  
                 li.mb-0 
                   i.fas.fa-database.color1

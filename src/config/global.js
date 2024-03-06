@@ -326,11 +326,6 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
           nombre: 'Edgar Mauricio Cortes',
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',

@@ -88,7 +88,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | Tratar de utilizar los Joins si es posible.
+            span Tratar de utilizar los #[em Joins] si es posible.
           li 
             .lista-ol--cuadro__vineta
               span 3

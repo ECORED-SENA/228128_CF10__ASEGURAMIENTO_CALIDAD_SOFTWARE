@@ -37,17 +37,17 @@
             .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-left")
               SlyderA(tipo="b")
                 .row.justify-content-center.align-items-center.p-2
-                  .col-lg-4.my-3.mb-4.mb-md-0
+                  .col-lg-6.my-3.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/9.svg', alt="Imagen que presenta una estructura lineal.") 
-                  .col-lg-7.my-3.col-md-auto
+                  .col-lg-6.my-3.col-md-auto
                     .t2.pe-5                     
                       h4.t3.mb-4 Necesario
-                      p Las estructuras lineales son estructuras que se definen inicialmente como una secuencia de elementos en donde se crea una relación de predecesor y sucesor. Estas estructuras utilizan cuatro operaciones básicas que son: crear, añadir, borrar y consultar, y existen tres estructuras lineales que son: las pilas ejecuta las tres operaciones al final de la secuencia, listas las tres operaciones, se ejecutan sobre una posición en específico y puede ser desplazada, y colas se añade al final y se consulta y borra al inicio	     
+                      p Las estructuras lineales son estructuras que se definen inicialmente como una secuencia de elementos en donde se crea una relación de predecesor y sucesor. Estas estructuras utilizan cuatro operaciones básicas que son: crear, añadir, borrar y consultar, y existen tres estructuras lineales que son: las pilas ejecuta las tres operaciones al final de la secuencia, listas las tres operaciones, se ejecutan sobre una posición en específico y puede ser desplazada, y colas se añade al final y se consulta y borra al inicio.	     
 
                 .row.justify-content-center.align-items-center.p-2
-                  .col-lg-4.my-3.mb-4.mb-md-0
+                  .col-lg-6.my-3.mb-4.mb-md-0
                     img.img-a.img-t(src='@/assets/curso/temas/10.svg',alt="Imagen que presenta una estructura de árbol binario.") 
-                  .col-lg-7.my-3.col-md-auto
+                  .col-lg-6.my-3.col-md-auto
                     .t2.pe-5                     
                       h4.t3.mb-4 Árbol binario
                       p Es una estructura de datos en donde se representa por nodos, y cada nodo puede tener dos hijos, uno a la izquierda y otro a la derecha. Si uno de los nodos tiene un valor de null, se le dice que es un nodo hoja.                                   
@@ -151,7 +151,7 @@
       .col-lg-3.my-3.p-0.ps-5
         img.img-mov(data-aos="zoom-in")(src='@/assets/curso/temas/25.png')     
       .col-lg-9.my-3(data-aos="fade-down")
-        p(data-aos="fade-down").mb-0.px-5 Índice es un identificador que permite que la consulta se haga teniendo en cuenta este parámetro y pueda ejecutarse de forma más eficiente y rápida, existen tipos de índices que se ajustan a la implementación de las búsquedas, cuando se crean las tablas de las bases de datos, normalmente uno crea un llave primaria que indica que la búsqueda debe ser relacionada con esa llave en especial, esta llave primaria es a su vez un índice.
+        p(data-aos="fade-down").mb-0.px-5 Índice es un identificador que permite que la consulta se haga teniendo en cuenta este parámetro y pueda ejecutarse de forma más eficiente y rápida, existen tipos de índices que se ajustan a la implementación de las búsquedas, cuando se crean las tablas de las bases de datos, normalmente se crea una llave primaria que indica que la búsqueda debe ser relacionada con esa llave en especial, esta llave primaria es a su vez un índice.
 
 </template>
 

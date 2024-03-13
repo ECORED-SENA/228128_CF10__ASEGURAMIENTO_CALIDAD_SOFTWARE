@@ -155,7 +155,7 @@ export default {
       referencia:
         'Universitat Politecnica de Valencia. (2011). <i>Estructura de datos Lineales: Pila, Cola y Lista con Punto de Interés</i> [video]. YouTube. ',
       tipo: 'Video',
-      link: '',
+      link: 'https://www.youtube.com/watch?v=-Shr2s0gYao',
     },
     {
       tema: 'Estructura de datos',
@@ -195,7 +195,7 @@ export default {
     {
       tema: 'Análisis de rendimiento',
       referencia:
-        'Cerebrum VE. (2013). <i>BD Avanzadas – Cómo optimizar una ocnsulta</i> [video]. YouTube.',
+        'Cerebrum VE. (2013). <i>BD Avanzadas – Cómo optimizar una consulta</i> [video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/embed/1HH4ZYXhJYE ',
     },
@@ -241,7 +241,7 @@ export default {
     {
       termino: 'Implementación',
       significado:
-        'poner en funcionamiento o aplicar métodos, medidas , etc., para llevar algo a cabo.',
+        'poner en funcionamiento o aplicar métodos, medidas, etc., para llevar algo a cabo.',
     },
   ],
   referencias: [
@@ -290,22 +290,6 @@ export default {
             'Centro de teleinformática y producción industrial - Regional Cauca',
         },
         {
-          nombre: 'Zenith Chinchilla Ruedas',
-          cargo: 'Diseñador Instruccional',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Carolina Coca Salazar',
-          cargo: 'Revisora Metodológica y Pedagógica ',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Jhon Jairo Rodríguez Pérez',
-          cargo: 'Diseñador y evaluador instruccional',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
-        },
-        {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
@@ -341,7 +325,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
+          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -351,7 +335,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
+          nombre: 'Margarita Marcela Medrano Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },

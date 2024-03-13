@@ -25,7 +25,7 @@
       h2 3.1 Motor de almacenamiento                      
     .row.justify-content-center.mb-4 
       .col-lg-7.my-3
-        p(data-aos="fade-down") Un motor de base de datos es el que ofrece un sistema de administración para utilizar operaciones para editar, leer y actualizar datos. en este caso se hablará de MySQL y MariaDB, y existen dos tipos de motores: transaccionales y no transaccionales:
+        p(data-aos="fade-down") Un motor de base de datos es el que ofrece un sistema de administración para utilizar operaciones para editar, leer y actualizar datos. En este caso se hablará de MySQL y MariaDB, y existen dos tipos de motores: transaccionales y no transaccionales:
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/43.png', alt='')       
 
       .col-lg-5.my-3
@@ -90,7 +90,7 @@
                 | 90 % o más consultas simples. 
 
           .tarjeta.bg14.p-5
-            h4.text-center.mb-4 Procesamiento de transacciones en línea (oltp) 
+            h4.text-center.mb-4 Procesamiento de transacciones en línea (OLTP) 
             ul.lista-ul.fa-ul.mb-0
               li 
                 i.fas.fa-database.color1
@@ -109,7 +109,7 @@
                 | Algunas transacciones largas y consultas de lectura complejas.  
 
           .tarjeta.bg14.p-5
-            h4.text-center.mb-4 Almacén de datos (dw) 
+            h4.text-center.mb-4 Almacén de datos (DW) 
             ul.lista-ul.fa-ul
               li 
                 i.fas.fa-database.color1

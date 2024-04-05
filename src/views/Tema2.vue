@@ -33,7 +33,7 @@
 
               .col-lg-3.my-3
                 .bg5.p-3.brad.mb-4(data-aos="fade-left")
-                  p(data-aos="fade-down").mb-0 Luego se inicia el monitoreo de esas consultas identificando los tiempos de respuesta, utilizando el comando explain en MySQL. Hay que tener en cuenta que este comando puede variar ,dependiendo del motor de base de datos que se utilice.
+                  p(data-aos="fade-down").mb-0 Luego se inicia el monitoreo de esas consultas identificando los tiempos de respuesta, utilizando el comando explain en MySQL. Hay que tener en cuenta que este comando puede variar, dependiendo del motor de base de datos que se utilice.
                 img.img-t.img-a.mov(data-aos="zoom-in")(src='@/assets/curso/temas/30.png', alt='')      
 
             .row.justify-content-center.align-items-center.px-3.my-3.bg12.brad.mb-5(data-aos="flip-down")           

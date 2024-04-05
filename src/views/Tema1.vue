@@ -41,7 +41,7 @@
                     img.img-a.img-t(src='@/assets/curso/temas/9.svg', alt="Imagen que presenta una estructura lineal.") 
                   .col-lg-6.my-3.col-md-auto
                     .t2.pe-5                     
-                      h4.t3.mb-4 Necesario
+                      h4.t3.mb-4 Estructura de datos lineal
                       p Las estructuras lineales son estructuras que se definen inicialmente como una secuencia de elementos en donde se crea una relación de predecesor y sucesor. Estas estructuras utilizan cuatro operaciones básicas que son: crear, añadir, borrar y consultar, y existen tres estructuras lineales que son: las pilas ejecuta las tres operaciones al final de la secuencia, listas las tres operaciones, se ejecutan sobre una posición en específico y puede ser desplazada, y colas se añade al final y se consulta y borra al inicio.	     
 
                 .row.justify-content-center.align-items-center.p-2
@@ -124,7 +124,7 @@
                     img.img-a.img-t(src='@/assets/curso/temas/22.svg', alt="Imagen que presenta un ejemplo del ordenamiento por selección y reemplazo.") 
                   .col-lg-4.my-3.col-md-auto
                     .t2.pe-5                     
-                      h4.t3.mb-4 Método de burbuja 
+                      h4.t3.mb-4 Método de selección 
                       p En este método lo primero se debe hacer, es seleccionar el elemento de la primera posición y compararlo como el más pequeño o el más grande de todo el conjunto de elementos. En este caso, seleccionaremos el más pequeño, recorremos posición por posición, comparando que el elemento que seleccionamos es el más pequeño que el de la posición actual; si después de recorrer todo el #[i array] encontramos el más pequeño, lo intercambiamos con el elemento que está en la primera posición y nos desplazamos a la segunda posición, volvemos a comprar hasta el final del #[i array] y si encontramos el más pequeño, lo intercambiamos con el elemento de la segunda posición y así sucesivamente hasta terminar de desplazarnos por todo el #[i array]. 
 
                 .row.justify-content-center.align-items-center.p-2

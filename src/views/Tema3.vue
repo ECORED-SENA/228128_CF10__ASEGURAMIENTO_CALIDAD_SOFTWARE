@@ -18,7 +18,7 @@
           .col.my-3
             p(data-aos="fade-down").mb-0 El afinamiento de base de datos es el proceso que se hace de acuerdo al sistema operativo, a la arquitectura del servidor, como el disco duro, memoria, etc., y a las transacciones y usuarios que se puedan conectar y hacer solicitudes. 
 
-        p(data-aos="fade-down") Los informes basados en esquemas de rendimiento, proporcionan información sobre las operaciones del servidor MySQL a través de útiles informes de alto nivel. MySQL #[i Workbench] utiliza las vistas #[i #[b.tb SYS]] en el esquema de rendimiento para generar más de 20 informes para ayudar a analizar el rendimiento de sus bases de datos MySQL. Los informes ayudan a analizar los puntos de acceso de E / S,descubrir declaraciones SQL de alto costo y revisar las estadísticas de espera y las métricas del motor InnoDB.  
+        p(data-aos="fade-down") Los informes basados en esquemas de rendimiento, proporcionan información sobre las operaciones del servidor MySQL a través de útiles informes de alto nivel. MySQL #[i Workbench] utiliza las vistas #[i #[b.tb SYS]] en el esquema de rendimiento para generar más de 20 informes para ayudar a analizar el rendimiento de sus bases de datos MySQL. Los informes ayudan a analizar los puntos de acceso de E / S, descubrir declaraciones SQL de alto costo y revisar las estadísticas de espera y las métricas del motor InnoDB.  
 
     Separador 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")

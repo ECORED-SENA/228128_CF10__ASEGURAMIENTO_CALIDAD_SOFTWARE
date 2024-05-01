@@ -53,7 +53,7 @@
         .row.justify-content-center.px-4
           .col-lg-5.mb-4.mb-md-0
             h4 #[mark.px-2.t4.text-white Consulta 1]
-            p Si se observa la sentencia marcada con azul, no utiliza Join y solo utiliza la llave primaria, y la segunda sentencia utiliza el Join. Si se detalla el tiempo de la sentencia roja, es mucho mejor el tiempo de respuesta, por lo tanto, una forma de optimizar las sentencias de búsqueda con respecto al rendimiento es utilizando los Join.                                                          
+            p Si se observa la sentencia marcada con azul, no utiliza #[i Join] y solo utiliza la llave primaria, y la segunda sentencia utiliza el #[i Join]. Si se detalla el tiempo de la sentencia roja, es mucho mejor el tiempo de respuesta, por lo tanto, una forma de optimizar las sentencias de búsqueda con respecto al rendimiento es utilizando los #[i Join].                                                          
           .col-lg-6
             img.img-a.img-t(src='@/assets/curso/temas/36.png', alt='Imagen que presenta el proceso explicado en la consulta 1.')       
 
@@ -61,7 +61,7 @@
         .row.justify-content-center.px-4
           .col-lg-5.mb-4.mb-md-0
             h4 #[mark.px-2.t4.text-white Consulta 2]
-            p Ahora se agrega además un index a la consulta con el campo identificación.                                                          
+            p Ahora se agrega además un #[i index] a la consulta con el campo identificación.                                                          
           .col-lg-6
             img.img-a.img-t(src='@/assets/curso/temas/37.png', alt='Imagen que presenta el proceso explicado en la consulta 2.')  
 

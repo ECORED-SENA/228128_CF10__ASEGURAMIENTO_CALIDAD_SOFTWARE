@@ -34,7 +34,7 @@
               .col-lg-5.my-3.order-lg-2 
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/5.svg', alt='')  
 
-            .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-left")
+            .tarjeta.tarjeta--gris.p-4.mb-5.d-none.d-lg-block(data-aos="fade-left")
               SlyderA(tipo="b")
                 .row.justify-content-center.align-items-center.p-2
                   .col-lg-6.my-3.mb-4.mb-md-0
@@ -51,6 +51,22 @@
                     .t2.pe-5                     
                       h4.t3.mb-4 Árbol binario
                       p Es una estructura de datos en donde se representa por nodos, y cada nodo puede tener dos hijos, uno a la izquierda y otro a la derecha. Si uno de los nodos tiene un valor de null, se le dice que es un nodo hoja.                                   
+
+            .row.justify-content-center.align-items-center.p-3.tarjeta--gris.mb-5.brad.d-block.d-lg-none
+              .col-lg-6.my-3.mb-4.mb-md-0
+                img.img-a.img-t.mb-2(src='@/assets/curso/temas/9.svg', alt="Imagen que presenta una estructura lineal.") 
+              .col-lg-6.my-3.col-md-auto
+                .t2.pe-5                     
+                  h4.t3.mb-4 Estructura de datos lineal
+                  p Las estructuras lineales son estructuras que se definen inicialmente como una secuencia de elementos en donde se crea una relación de predecesor y sucesor. Estas estructuras utilizan cuatro operaciones básicas que son: crear, añadir, borrar y consultar, y existen tres estructuras lineales que son: las pilas ejecuta las tres operaciones al final de la secuencia, listas las tres operaciones, se ejecutan sobre una posición en específico y puede ser desplazada, y colas se añade al final y se consulta y borra al inicio.	     
+
+            .row.justify-content-center.align-items-center.p-3.tarjeta--gris.mb-5.brad.d-block.d-lg-none
+              .col-lg-6.my-3.mb-4.mb-md-0
+                img.img-a.img-t.mb-2(src='@/assets/curso/temas/10.svg',alt="Imagen que presenta una estructura de árbol binario.") 
+              .col-lg-6.my-3.col-md-auto
+                .t2.pe-5                     
+                  h4.t3.mb-4 Árbol binario
+                  p Es una estructura de datos en donde se representa por nodos, y cada nodo puede tener dos hijos, uno a la izquierda y otro a la derecha. Si uno de los nodos tiene un valor de null, se le dice que es un nodo hoja. 
 
             h5.tb(data-aos="fade-down") Estas estructuras se pueden recorrer de tres formas: 
 
@@ -109,7 +125,7 @@
                 .bg3.p-3.brad.h-100.j(data-aos="fade-right")
                   p(data-aos="fade-down").mb-0 Hablemos ahora sobre la ordenación. Este es un proceso para organizar los elementos o un conjunto de datos de forma ascendente o descendente, si es el caso que los elementos sean números y si son alfabéticos, en orden alfabético; esta ordenación se repite hasta que los elementos o datos estén ordenados correctamente. Para lograr este proceso, se utilizan dos simples operaciones, comparación e intercambio.  
 
-            .tarjeta.tarjeta--gris.p-4.mb-5(data-aos="fade-left")
+            .tarjeta.tarjeta--gris.p-4.mb-5.d-none.d-lg-block(data-aos="fade-left")
               SlyderA(tipo="b")
                 .row.justify-content-center.align-items-center.p-2
                   .col-lg-7.my-3.mb-4.mb-md-0
@@ -141,7 +157,39 @@
                   .col-lg-4.my-3.col-md-auto
                     .t2.pe-5                     
                       h4.t3.mb-4 Quicksort 
-                      p Este método lo que hace es tomar inicialmente un pívot. Normalmente se toma el primer elemento, después se empieza a comparar cada uno de los elementos, y en el #[i array] de la izquierda se van a agregando uno a uno los menores o iguales al pívot y a la derecha se van agregando los mayores; después se concatenan teniendo en cuenta que el pívot queda en el medio, y se toman los #[i array] a la izquierda y derecha y vuelve y se toma un pívot para volver a hacer el proceso, al final devuelve el #[i array] ordenado.                                             
+                      p Este método lo que hace es tomar inicialmente un pívot. Normalmente se toma el primer elemento, después se empieza a comparar cada uno de los elementos, y en el #[i array] de la izquierda se van a agregando uno a uno los menores o iguales al pívot y a la derecha se van agregando los mayores; después se concatenan teniendo en cuenta que el pívot queda en el medio, y se toman los #[i array] a la izquierda y derecha y vuelve y se toma un pívot para volver a hacer el proceso, al final devuelve el #[i array] ordenado. 
+
+            .row.justify-content-center.align-items-center.p-3.tarjeta--gris.mb-5.brad.d-block.d-lg-none
+              .col-lg-7.my-3.mb-4.mb-md-0
+                img.img-a.img-t(src='@/assets/curso/temas/21.svg', alt="Imagen que presenta un algoritmo de burbuja.") 
+              .col-lg-4.my-3.col-md-auto
+                .t2.pe-5                     
+                  h4.t3.mb-4 Método de burbuja
+                  p Recorre el #[i array], comparando valores que se encuentran en posiciones seguidas. Si los datos de las dos posiciones no se encuentran ordenadas, se intercambian, y se sigue iterando hasta que el #[i array] quede en el orden correcto.       
+
+            .row.justify-content-center.align-items-center.p-3.tarjeta--gris.mb-5.brad.d-block.d-lg-none
+              .col-lg-7.my-3.mb-4.mb-md-0
+                img.img-a.img-t(src='@/assets/curso/temas/22.svg', alt="Imagen que presenta un ejemplo del ordenamiento por selección y reemplazo.") 
+              .col-lg-4.my-3.col-md-auto
+                .t2.pe-5                     
+                  h4.t3.mb-4 Método de selección 
+                  p En este método lo primero se debe hacer, es seleccionar el elemento de la primera posición y compararlo como el más pequeño o el más grande de todo el conjunto de elementos. En este caso, seleccionaremos el más pequeño, recorremos posición por posición, comparando que el elemento que seleccionamos es el más pequeño que el de la posición actual; si después de recorrer todo el #[i array] encontramos el más pequeño, lo intercambiamos con el elemento que está en la primera posición y nos desplazamos a la segunda posición, volvemos a comprar hasta el final del #[i array] y si encontramos el más pequeño, lo intercambiamos con el elemento de la segunda posición y así sucesivamente hasta terminar de desplazarnos por todo el #[i array]. 
+
+            .row.justify-content-center.align-items-center.p-3.tarjeta--gris.mb-5.brad.d-block.d-lg-none
+              .col-lg-7.my-3.mb-4.mb-md-0
+                img.img-a.img-t(src='@/assets/curso/temas/23.svg', alt="Imagen que presenta un ejemplo de ordenamiento por selección y reemplazo.") 
+              .col-lg-4.my-3.col-md-auto
+                .t2.pe-5                     
+                  h4.t3.mb-4 Método de inserción 
+                  p Este método lo que hace es comprar el elemento con el elemento que se encuentra a la izquierda. Como el primer elemento está en la posición 0 y no hay ningún elemento al lado izquierdo, pasamos al elemento 1 y lo comparamos con el elemento de la posición 0, si este elemento es menor que el elemento de la posición anterior, entonces lo intercambiamos, de lo contrario pasamos a la siguiente posición, el elemento debe desplazarse hacia la izquierda tantas veces hasta que encuentre uno menor. 
+
+            .row.justify-content-center.align-items-center.p-3.tarjeta--gris.mb-5.brad.d-block.d-lg-none
+              .col-lg-7.my-3.mb-4.mb-md-0
+                img.img-a.img-t(src='@/assets/curso/temas/24.svg', alt="Imagen que presenta un ejemplo de quicksort.") 
+              .col-lg-4.my-3.col-md-auto
+                .t2.pe-5                     
+                  h4.t3.mb-4 Quicksort 
+                  p Este método lo que hace es tomar inicialmente un pívot. Normalmente se toma el primer elemento, después se empieza a comparar cada uno de los elementos, y en el #[i array] de la izquierda se van a agregando uno a uno los menores o iguales al pívot y a la derecha se van agregando los mayores; después se concatenan teniendo en cuenta que el pívot queda en el medio, y se toman los #[i array] a la izquierda y derecha y vuelve y se toma un pívot para volver a hacer el proceso, al final devuelve el #[i array] ordenado.   
     Separador 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.4 Índices y rendimiento en bases de datos                                                            

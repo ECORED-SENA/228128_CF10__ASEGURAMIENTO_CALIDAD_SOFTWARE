@@ -153,7 +153,7 @@ export default {
     {
       tema: 'Estructura de datos',
       referencia:
-        'Universitat Politecnica de Valencia. (2011). <i>Estructura de datos Lineales: Pila, Cola y Lista con Punto de Interés</i> [video]. YouTube. ',
+        'Universitat Politècnica de València. (2011). <i>Estructura de datos Lineales: Pila, Cola y Lista con Punto de Interés</i> [video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=-Shr2s0gYao',
     },
